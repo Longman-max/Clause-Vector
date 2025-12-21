@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Project specific
+vector_db/
+assets/*.pdf
+!assets/constitution.pdf  # Keep the main PDF if desired, or ignore it if it's large/proprietary. Assuming keep for now as it's small.
+
+# Mac
+.DS_Store
